@@ -1,4 +1,4 @@
-var syntax        = 'sass', // Syntax: sass or scss;
+var syntax        = 'scss', // Syntax: sass or scss;
 		gulpversion   = '4'; // Gulp version: 3 or 4
 
 var gulp          = require('gulp'),
@@ -37,7 +37,7 @@ gulp.task('styles', function() {
 
 gulp.task('scripts', function() {
 	return gulp.src([
-		'app/libs/jquery/dist/jquery.min.js',
+		'app/libs/siema-master/dist/siema.min.js',
 		'app/js/common.js', // Always at the end
 		])
 	.pipe(concat('scripts.min.js'))

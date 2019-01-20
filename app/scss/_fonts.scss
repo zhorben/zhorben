@@ -1,4 +1,9 @@
 @import "_mixins/font-face";
 
-@include font-face("roboto-example", "../fonts/RobotoRegular/RobotoRegular");
-@include font-face("roboto-example", "../fonts/RobotoBold/RobotoBold", bold);
+@include font-face("roboto", "../fonts/RobotoRegular/RobotoRegular");
+@include font-face("roboto", "../fonts/RobotoBold/RobotoBold", bold);
+@include font-face("gilroy", "../fonts/Gilroy-Regular/Gilroy-Regular");
+@include font-face("gilroy", "../fonts/Gilroy-Bold/Gilroy-Bold", bold);
+@include font-face("gilroy", "../fonts/Gilroy-Light/Gilroy-Light", 300);
+@include font-face("gilroy", "../fonts/Gilroy-Medium/Gilroy-Medium", 500);
+@include font-face("gilroy", "../fonts/Gilroy-ExtraBold/Gilroy-ExtraBold", 900);
